@@ -3,6 +3,7 @@ out
 dist
 .idea
 package-lock.json
+flow-typed
 
 # Logs
 logs

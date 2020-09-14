@@ -17,6 +17,10 @@ describe('Test Suite For Stack', () => {
         expect(stackObject.pop()).toBe(3)
     })
 
+    it('should throw a special error for popping an empty stack', () => {
+        expect(stackObject.pop()).toThrow(Stack.EmptyStackCannotBePoppedError)
+    })
+
     it('should return 4 as the peek of the stack', () => {
         stackObject.push([1,2,3,4])
         expect(stackObject.peek()).toBe(4)

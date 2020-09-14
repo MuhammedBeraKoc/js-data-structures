@@ -1,2 +1,5 @@
-# js-data-structures
-A complete code base for data structures implemented in JavaScript
+<div align="center">
+	<br>
+        <img src="./header.svg" width="800" height="320">
+	<br>
+</div>
