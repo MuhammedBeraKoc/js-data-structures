@@ -4,6 +4,7 @@ dist
 .idea
 package-lock.json
 flow-typed
+prototype
 
 # Logs
 logs
